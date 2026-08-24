@@ -19,7 +19,13 @@ phases:
       - echo Pushing Docker image to ECR...
       - docker push 858656722878.dkr.ecr.eu-north-1.amazonaws.com/brain-tasks-app:$CODEBUILD_RESOLVED_SOURCE_VERSION
       - docker push 858656722878.dkr.ecr.eu-north-1.amazonaws.com/brain-tasks-app:latest
-      - echo Build completed on `date`
+      - echo Updating kubeconfig...
+      - aws eks update-kubeconfig --region eu-north-1 --name brain-tasks-cluster
+      - echo Deploying application to EKS...
+      - kubectl apply -f deployment.yaml
+      - kubectl apply -f service.yaml
+      - kubectl rollout status deployment/brain-tasks-app
+      - echo Deployment completed on `date`
 
 artifacts:
   files:
