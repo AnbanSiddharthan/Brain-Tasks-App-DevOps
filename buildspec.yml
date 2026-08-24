@@ -26,7 +26,3 @@ phases:
       - kubectl apply -f service.yaml
       - kubectl rollout status deployment/brain-tasks-app
       - echo Deployment completed on `date`
-
-artifacts:
-  files:
-    - '**/*'
