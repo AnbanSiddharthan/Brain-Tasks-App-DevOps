@@ -213,17 +213,43 @@ The following were successfully verified:
 
 Screenshots can be added to this README as deployment evidence.
 
-Recommended screenshots:
 
-1. Docker image
-2. Amazon ECR repository
-3. EKS cluster
-4. Kubernetes pods
-5. Kubernetes LoadBalancer
-6. AWS CodeBuild
-7. AWS CodePipeline showing Source → Build → Deploy
-8. CloudWatch log groups
-9. Running application
+Docker image
+
+<img width="1906" height="527" alt="image" src="https://github.com/user-attachments/assets/0e8b054f-57d3-417e-b60c-3bd730385f2e" />
+
+Amazon ECR repository
+
+<img width="1917" height="846" alt="image" src="https://github.com/user-attachments/assets/f0d8013d-9179-4475-ab65-334b89230efd" />
+
+EKS cluster
+
+<img width="1916" height="901" alt="image" src="https://github.com/user-attachments/assets/bfb01794-1c92-40b3-9765-17b3ea56fd41" />
+
+Kubernetes pods
+
+<img width="1902" height="112" alt="image" src="https://github.com/user-attachments/assets/40fa94d1-857b-4443-a23e-6e6cff83d34d" />
+
+Kubernetes LoadBalancer
+
+<img width="1906" height="115" alt="image" src="https://github.com/user-attachments/assets/d1a81d77-d620-4b2f-b571-bc86df91b48f" />
+
+AWS CodeBuild
+
+<img width="1917" height="868" alt="image" src="https://github.com/user-attachments/assets/235b7f5d-cf98-4356-a0f8-ea329304d891" />
+
+AWS CodePipeline showing Source → Build → Deploy
+
+<img width="1917" height="867" alt="image" src="https://github.com/user-attachments/assets/d5a63a14-38ec-4ed0-8896-66540ecc0c9d" />
+
+CloudWatch log groups
+
+<img width="1917" height="807" alt="image" src="https://github.com/user-attachments/assets/404830b9-e6c2-45dd-905b-9c6989f3dd0d" />
+
+Running application
+
+<img width="1910" height="973" alt="image" src="https://github.com/user-attachments/assets/20c9d8a7-a25a-45f9-a20e-6be3a7250cc6" />
+
 
 ## 18. Final Result
 
